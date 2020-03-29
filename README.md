@@ -10,7 +10,7 @@ The app stores every burger in a database, whether devoured or not.
 
 The app was created with MySQL, Node, Express, Handlebars and a homemade ORM (yum!) while following the MVC design. Node and MySQL were used to query and route data in the app, and Handlebars to generate the HTML.
 
-Click here to see the heroku deployed application <a href="#">Devour the Burger</a>.
+Click here to see the heroku deployed application <a href="https://steffield-burger.herokuapp.com/">Devour the Burger</a>.
 
 
 ## Table of Content
@@ -38,10 +38,7 @@ Not allowed.
 
 ---------------------------------------
 
-![](READMEgif1.gif)
-
-
-![](READMEgif2.gif)
+![](burger.gif)
 
 ---------------------------------------
 
