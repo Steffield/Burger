@@ -1,0 +1,58 @@
+body{
+    /* font-family: 'Oxanium', cursive; */
+    /* font-family: 'Kulim Park', sans-serif; */
+    font-family: 'Mansalva', cursive;
+    background-color: black;
+    color:white;
+}
+
+.card{
+    margin: 2%;
+    
+}
+
+
+.card,
+.card-title{
+    font-size:2em!important;
+    bottom: 80%!important;
+    /* padding:5px; */
+    /* left:5%!important; */
+}
+
+.row{
+    margin: 0px!important;
+
+}
+
+label{
+    font-size: 1em!important;
+}
+
+i,
+.checkbox,
+button{
+    background-color: #9fc440!important;
+    /* border-radius: 80px!important; */
+
+}
+/* .submit{
+    background-color:#e9a45d!important;
+} */
+
+
+.BurgerList{
+    color:black!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3%;
+
+
+    
+}
+
+li{
+    font-size: 1.2em;
+    padding: 10px 20px 10px 20px;
+}
+
