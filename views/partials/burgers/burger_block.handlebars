@@ -1,11 +1,11 @@
 <li>
-	{{burger_name}}
+	{{id}}.    {{burger_name}}
 
 	{{!-- <button class="btn waves-effect waves-light change-devoured" data-id="{{id}}" data-newBurger="{{devoured}}">
 		{{#if devoured}}Eat<i class="material-icons">restaurant</i>{{else}}Eaten!<i class="material-icons">sentiment_very_satisfied</i>{{/if}}
 	</button> --}}
-	<button class="change-devoured btn-floating btn-medium waves-effect waves-light green" data-id="{{id}}" data-newEatState="{{devoured}}">
-		  {{#if devoured}}<i class="material-icons">restaurant</i>{{else}}<i class="material-icons black">sentiment_very_satisfied</i>{{/if}}	  
+	<button class="change-devoured btn-floating btn-medium waves-effect waves-light" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		  {{#unless devoured}}<i class="material-icons">restaurant</i>{{else}}<i class="material-icons black">sentiment_very_satisfied</i>{{/unless}}	  
 	</button>
 
 

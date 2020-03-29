@@ -8,7 +8,7 @@ var burger = require("../models/burger.js");
 router.get("/", function(req, res) {
     burger.selectAll(function(data){
         var handlebarsObject ={
-            burgers:data
+            burgers: data
         };
         console.log(handlebarsObject);
         res.render("index", handlebarsObject);
@@ -31,9 +31,7 @@ router.put("/api/burgers/:id", function(req, res){
 
     console.log("condition", condition);
 
-    burger.updateOne({
-        devoured: req.body.devoured
-    }, condition, function(result){
+    burger.updateOne({ devoured: req.body.devoured}, condition, function(result){
         if (result.changedRows == 0) {
             //if no rows changed, then ID prob. doesnt exist and 404 error
             return res.status(404).end();

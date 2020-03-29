@@ -14,15 +14,26 @@ body{
 
 .card,
 .card-title{
-    font-size:2em!important;
+    font-size:1.8em!important;
     bottom: 80%!important;
+    border: none!important;
     /* padding:5px; */
-    /* left:5%!important; */
+    /* left:20%!important; */
+}
+
+.card-img{
+    border: none!important;
 }
 
 .row{
     margin: 0px!important;
 
+}
+
+.addBurger{
+    color:black!important;
+    margin-right: 50px;
+    margin-top:50px;
 }
 
 label{
@@ -36,15 +47,15 @@ button{
     /* border-radius: 80px!important; */
 
 }
-/* .submit{
+.submit{
     background-color:#e9a45d!important;
-} */
+}
 
 
 .BurgerList{
     color:black!important;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top:3%;
 
 
