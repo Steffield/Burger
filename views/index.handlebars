@@ -4,8 +4,8 @@
     <div class="col s12 m12 l12">
       <div class="card">
         <div class="card-image">
-          {{!-- <img src="../public/assets/img/burger.jpg"> --}}
-          <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+          <img src="/assets/img/burger.jpg">
+          {{!-- <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"> --}}
           <span class="card-title">Burger Time</span>
           {{!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> --}}
         </div>
@@ -28,18 +28,19 @@
               <input type="text" id="burger" name="burger_name">
             {{!-- </div> --}}
 
-            <div class="form-group input-field" action="#">
-              {{!-- <label for="devoured">Devoured?</label> --}}
-              <p>
-             <label for="devoured">
-                <input type = "checkbox" id="devoured" value="1"/>
-                <span>Already Devoured!</span> 
-        
-                <input type = "checkbox" id="devoured" value="0"/>
-                <span>Ready to Eat!</span> 
-              </label>
-               </p>
-            </div>
+             <div class="form-group input-field" action="#">
+                <p>
+                  <label>
+                    <input type="radio" name="devoured" value="1" />
+                    <span>Already Devoured!</span>
+                  </label>
+              
+                  <label>
+                    <input type="radio" name="devoured" value="0" checked />
+                    <span>Ready to Eat!</span>
+                  </label>
+                </p>
+                </div>
 
             {{!-- <a class="submit btn-floating btn-medium waves-effect waves-light " type="submit" name="action"><i class="material-icons blue" name="action">add</i></a> --}}
               <button class="submit btn-floating btn-medium waves-effect waves-light" type="submit" name="action">
