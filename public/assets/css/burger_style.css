@@ -20,14 +20,16 @@ span:after {
     border: 2px solid black!important;
 }
 
+.padding{
+    padding: 20px;
+}
+
 .card,
 .card-title{
-    font-size:1.8em!important;
+    font-size:1.6em!important;
     bottom: 80%!important;
     border: none!important;
-    /* padding:20px; */
-    /* padding:5px; */
-    /* left:20%!important; */
+
 }
 
 #header{
