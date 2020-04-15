@@ -1,6 +1,4 @@
 body{
-    /* font-family: 'Oxanium', cursive; */
-    /* font-family: 'Kulim Park', sans-serif; */
     font-family: 'Mansalva', cursive;
     background-color: black;
     color:white;
@@ -8,17 +6,41 @@ body{
 
 .card{
     margin: 2%;
-    
 }
 
+label,
+span{
+    font-size: 1em!important;
+    padding-bottom: 10px;
+    /* color: black!important; */
+}
+
+span:after {
+    background-color: #9fc440!important;
+    border: 2px solid black!important;
+}
 
 .card,
 .card-title{
     font-size:1.8em!important;
     bottom: 80%!important;
     border: none!important;
+    /* padding:20px; */
     /* padding:5px; */
     /* left:20%!important; */
+}
+
+#header{
+    padding: 0!important;
+}
+
+#burgerTitle{
+    font-size: 3em!important;
+    color:white;
+}
+
+.black-font{
+    color: black!important;
 }
 
 .card-img{
@@ -27,7 +49,6 @@ body{
 
 .row{
     margin: 0px!important;
-
 }
 
 .addBurger{
@@ -48,6 +69,7 @@ button{
     /* border-radius: 80px!important; */
 
 }
+
 .submit{
     background-color:#e9a45d!important;
 }
@@ -58,9 +80,6 @@ button{
     margin-left: 50px;
     margin-right: 50px;
     margin-top:3%;
-
-
-    
 }
 
 li{

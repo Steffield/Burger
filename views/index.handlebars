@@ -6,7 +6,7 @@
         <div class="card-image">
           <img src="/assets/img/burger.jpg">
           {{!-- <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"> --}}
-          <span class="card-title">Burger Time</span>
+          <span class="card-title" id="burgerTitle">Burger Time</span>
           {{!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> --}}
         </div>
         
@@ -24,7 +24,7 @@
           <form class="create-form">
 
             <div class="form-group input-field text-center"> 
-              <label for="burger" >Burger Name:</label>
+              <label for="burger black-font" >Burger Name:</label>
               <input type="text" id="burger" name="burger_name">
             {{!-- </div> --}}
 
@@ -32,12 +32,12 @@
                 <p>
                   <label>
                     <input type="radio" name="devoured" value="1" />
-                    <span>Already Devoured!</span>
+                    <span class="black-font">Already Devoured!</span>
                   </label>
               
                   <label>
                     <input type="radio" name="devoured" value="0" checked />
-                    <span>Ready to Eat!</span>
+                    <span class="black-font">Ready to Eat!</span>
                   </label>
                 </p>
                 </div>
