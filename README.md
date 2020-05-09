@@ -15,11 +15,11 @@ Click here to see the heroku deployed application <a href="https://steffield-bur
 
 ## Table of Content
 
-*[Installation](#installation)
+* [Installation](#installation)
 
-*[Usage](#usage)
+* [Usage](#usage)
 
-*[Contribution](#contribution)
+* [Contribution](#contribution)
 
 ## Installation
 
